@@ -1,0 +1,21 @@
+.accordion__card-header-button {
+  margin: 0 13px 0 0;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: transparent;
+  background-image: url('../../../images/arrow.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 34px 32px;
+  background-color: transparent;
+  border: 0;
+}
+
+.accordion__card-header-button:hover {
+  background-image: url('../../../images/Arrow_white.svg');
+  background-color: #000;
+  transform: rotate(180deg);
+  cursor: pointer;
+}

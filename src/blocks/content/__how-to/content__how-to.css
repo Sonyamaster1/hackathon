@@ -1,0 +1,16 @@
+.content__how-to {
+  margin: var(--margin_XL) auto 0;
+  padding: 0 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .content__how-to {
+    margin: 145px auto 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .content__how-to {
+    margin: 75px auto 0;
+  }
+}

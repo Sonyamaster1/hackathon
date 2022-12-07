@@ -1,0 +1,19 @@
+.header__navigation-links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  list-style: none;
+}
+
+.header__navigation-links > li {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__navigation-links {
+    flex-direction: column;
+  }
+}

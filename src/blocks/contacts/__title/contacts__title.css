@@ -1,0 +1,12 @@
+.contacts__title {
+  color: #000;
+  padding: 0;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+@media (max-width: 470px) {
+  .contacts__title {
+    max-width: 317px;
+    margin: 0 auto 25px auto;
+  }
+}

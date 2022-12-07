@@ -1,0 +1,15 @@
+.main-button_type_primary-disabled {
+  background-color: #F0F0F0;
+  color: #ADADAD;
+}
+
+.main-button_type_primary-disabled:hover {
+  background-color: #F0F0F0;
+  color: #ADADAD;
+  cursor: auto;
+}
+
+.main-button_type_primary-disabled:active {
+  background-color: #F0F0F0;
+  color: #ADADAD;
+}

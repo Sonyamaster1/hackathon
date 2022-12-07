@@ -1,0 +1,7 @@
+.accordion__card-header-button_active {
+  transform: rotate(180deg);
+}
+
+.accordion__card-header-button_active:hover {
+  transform: rotate(0);
+}

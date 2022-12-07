@@ -1,0 +1,12 @@
+.cards-slider__card {
+  margin: 0 0 0 -225px;
+  padding: 35px 30px;
+  width: 387px;
+  height: 456px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 30px;
+}

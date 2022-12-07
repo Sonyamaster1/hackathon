@@ -1,0 +1,7 @@
+.cards-slider__cards {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none;
+}

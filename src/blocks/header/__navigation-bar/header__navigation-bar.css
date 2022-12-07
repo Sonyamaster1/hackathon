@@ -1,0 +1,34 @@
+.header__navigation-bar {
+  margin: 0 0 0 50px;
+  padding: 0;
+  height: 35px;
+  box-sizing: border-box;
+  justify-self: end;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__navigation-bar {
+    height: 100%;
+    width: 0;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow: hidden;
+    padding-top: 60px;
+    margin: 0;
+    transition: 0.3s;
+  }
+  .header__navigation-bar.active {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header__navigation-bar.active {
+    width: 305px;
+  }
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 756px) {
+  .main-button_place_job {
+    width: 200px;
+    height: 40x;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .main-button_place_job {
+    width: 100px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

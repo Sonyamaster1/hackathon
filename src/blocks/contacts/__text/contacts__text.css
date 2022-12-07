@@ -1,0 +1,19 @@
+.contacts__text{
+margin: 0;
+padding: 0;
+}
+
+.contacts__link:hover > .contacts__text {
+  color: #3F75E0;
+}
+
+.contacts__link:active > .contacts__text {
+  color: #1656C5;
+}
+
+@media screen and (max-width: 470px) {
+  .contacts__text {
+    font-size: var(--font_size_small_mob);
+    line-height: var(--font_line_height_small_mob);
+  }
+}

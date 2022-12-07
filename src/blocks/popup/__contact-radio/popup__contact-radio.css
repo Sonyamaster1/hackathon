@@ -1,0 +1,21 @@
+.popup__contact-radio {
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid #262626;
+  border-radius: 50%;
+}
+
+.popup__contact-radio:hover {
+  background-color: #E0E0E0;
+}
+
+.popup__contact-radio:checked {
+  background-color: #262626;
+  background-image: url(../../../images/radio-check.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 9px 6.75px;
+}

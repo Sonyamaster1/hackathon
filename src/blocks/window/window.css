@@ -1,0 +1,19 @@
+.window {
+  margin: 0;
+  padding: 0;
+  font-family: 'YS Display', Arial, sans-serif;
+  color: var(--color_text);
+  background-color: var(--color_background);
+  box-sizing: border-box;
+  position: relative;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  font-smooth: never;
+}
+
+html {
+  scroll-behavior: smooth;
+}

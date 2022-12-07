@@ -1,0 +1,8 @@
+.grid__item_position_2 {
+  grid-area: two;
+}
+
+.grid__item_position_2 > .grid__item-front,
+.grid__item_position_2 > .grid__item-back {
+  background-color: #7C6BE3;
+}

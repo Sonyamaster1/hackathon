@@ -1,0 +1,19 @@
+.popup__input-wrapper_error::after {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  background-image: url(../../../../images/error.svg);
+}
+
+.popup__input-wrapper_error > .popup__input {
+  border: 2px solid #E36563;
+}
+
+.popup__input-wrapper_error > .popup__input:focus {
+  border: 2px solid #E36563;
+}
+
+.popup__input-wrapper_error > .popup__error-message {
+  visibility: visible;
+}

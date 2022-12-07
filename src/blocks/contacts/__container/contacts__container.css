@@ -1,0 +1,12 @@
+.contacts__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 1200px;
+}
+@media (max-width: 375px) {
+  .contacts__container {
+    max-width: 315px;
+  }
+}

@@ -1,0 +1,11 @@
+.accordion__card-header {
+  margin: 0;
+  padding: 23px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion__card-header:hover {
+  cursor: pointer;
+}

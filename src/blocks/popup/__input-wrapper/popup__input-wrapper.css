@@ -1,0 +1,25 @@
+.popup__input-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup__input-wrapper::after {
+  content: '';
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: absolute;
+  top: 21px;
+  right: 19px;
+  width: 10px;
+  height: 10px;
+  background-image: url(../../../images/Union.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

@@ -1,0 +1,10 @@
+.about__text {
+  
+  padding: 0;
+  margin: 0 0 15px 0;
+  text-decoration: none;
+  color: #000;
+}
+.about__text:last-child {
+  margin: 0;
+}

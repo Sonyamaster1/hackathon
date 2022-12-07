@@ -1,0 +1,28 @@
+.grid__item-front {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 35px 30px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: var(--color_block);
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform cubic-bezier(0.41, 0.24, 0.36, 1.45) 0.5s 0.3s;
+}
+
+.grid__item:hover .grid__item-front {
+  transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 1084px) {
+  .grid__item-front {
+    padding: 30px 25px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .grid__item:hover .grid__item-front {
+    transform:none;
+  }
+}

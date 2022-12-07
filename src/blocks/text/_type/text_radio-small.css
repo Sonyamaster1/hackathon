@@ -1,0 +1,6 @@
+.text_radio-small {
+  font-family: var(--font_font_radio-small);
+  font-weight: var(--font_font_weight_radio-small);
+  font-size: var(--font_size_radio-small);
+  line-height: var(--font_line_height_radio-small);
+}

@@ -1,0 +1,17 @@
+.link_place_header {
+  color: #000;
+  text-decoration: none;
+}
+
+.link_place_header:visited {
+  color: #000;
+}
+
+
+.link_place_header:hover {
+  color: #3F75E0;
+}
+
+.link_place_header:active {
+  color: #1656C5;
+}

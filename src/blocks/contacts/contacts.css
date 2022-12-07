@@ -1,0 +1,10 @@
+.contacts{
+  padding: 0 30px;
+  max-width: 1200px;
+  text-align: center;
+}
+@media (max-width:375px) {
+  .contacts{
+    max-width: 315px;
+  }
+}

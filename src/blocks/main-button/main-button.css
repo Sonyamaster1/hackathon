@@ -1,0 +1,23 @@
+.main-button {
+  margin: 0;
+  padding: 0;
+  display: block;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  text-decoration: none;
+  border: 0;
+  border-radius: 120px;
+  background-color: #262626;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.main-button:hover {
+  cursor: pointer;
+  background: #3F75E0;
+}
+
+.main-button:active {
+  cursor: pointer;
+  background: #1656C5;
+}

@@ -1,0 +1,10 @@
+.job__salary {
+  color: #3F75E0;
+  margin: 20px 0 0;
+}
+
+@media screen and (max-width: 470px) {
+  .job__salary {
+    margin-top: 10px;
+  }
+}

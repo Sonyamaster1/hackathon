@@ -1,0 +1,13 @@
+.grid__link {
+  padding-right: 30px;
+  background: url(./../../../images/arrow-right.svg) no-repeat right center;
+  margin-top: auto;
+  align-self: end;
+  color: #fff;
+  text-decoration: none;
+}
+
+.grid__link:hover {
+  color: #F2D66B;
+  background-image: url(./../../../images/arrow-right-yellow.svg);
+}

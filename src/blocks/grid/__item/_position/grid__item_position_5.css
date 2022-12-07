@@ -1,0 +1,9 @@
+.grid__item_position_5 {
+  grid-area: five;
+}
+
+
+.grid__item_position_5 > .grid__item-front,
+.grid__item_position_5 > .grid__item-back {
+  background-color: #000;
+}

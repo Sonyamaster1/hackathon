@@ -1,0 +1,51 @@
+.menu__icon {
+  display: none;
+  cursor: pointer;
+  display: none;
+}
+
+.menu__bar1, .menu__bar2, .menu__bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.menu__icon.active .menu__bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.menu__icon.active .menu__bar2 {
+  opacity: 0;
+}
+
+.menu__icon.active .menu__bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+@media screen and (max-width: 1200px) {
+  .menu__icon {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .menu__bar1, .menu__bar2, .menu__bar3 {
+    width: 25px;
+    height: 2px;
+  }
+
+  .menu__icon.active .menu__bar1 {
+    transform: translate(0, 8px) rotate(-45deg);
+  }
+
+  .menu__icon.active .menu__bar2 {
+    opacity: 0;
+  }
+
+  .menu__icon.active .menu__bar3 {
+    transform: translate(0, -8px) rotate(45deg);
+  }
+}

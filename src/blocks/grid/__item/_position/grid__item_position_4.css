@@ -1,0 +1,8 @@
+.grid__item_position_4 {
+  grid-area: four;
+}
+
+.grid__item_position_4 > .grid__item-front,
+.grid__item_position_4 > .grid__item-back {
+  background-color: #3F75E0;
+}

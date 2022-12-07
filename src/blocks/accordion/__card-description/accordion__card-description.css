@@ -1,0 +1,6 @@
+.accordion__card-description {
+  margin: 20px 0 0;
+  padding: 0;
+  display: none;
+  flex-direction: column;
+}

@@ -1,0 +1,10 @@
+.grid__wrapper_active {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 207px 134px 235px;;
+  grid-template-areas: 'one two three'
+                       'one five three'
+                       'four five six';
+  gap: 20px;
+}

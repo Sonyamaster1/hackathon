@@ -1,0 +1,21 @@
+.contacts__btn {
+  width: 160px;
+  height: 130px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-position: top;
+}
+.contacts__btn:last-child {
+  margin: 0;
+}
+.contacts__btn:first-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 756px) {
+  .contacts__btn {
+    height: 58px;
+    width: 78px;
+  }
+}

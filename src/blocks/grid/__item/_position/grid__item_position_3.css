@@ -1,0 +1,15 @@
+.grid__item_position_3 {
+  grid-area: three;
+}
+
+.grid__item_position_3>.grid__item-front,
+.grid__item_position_3>.grid__item-back {
+  background-color: #3F75E0;
+}
+
+@media screen and (max-width: 920px) {
+  .grid__item_position_3>.grid__item-front,
+  .grid__item_position_3>.grid__item-back {
+    background-color: #D182AF;
+  }
+}

@@ -1,0 +1,19 @@
+.select__course-button {
+  margin: 0;
+  padding: 0 16px;
+  display: block;
+  height: 36px;
+  border: 0;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.select__course-button:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.select__course-radio:checked+.select__course-button {
+  background: #FFFFFF;
+}

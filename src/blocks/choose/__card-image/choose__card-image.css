@@ -1,0 +1,15 @@
+.choose__card-image {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  height: 265px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 470px) {
+  .choose__card-image {
+    height: 160px;
+  }
+}

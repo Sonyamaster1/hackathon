@@ -1,0 +1,35 @@
+.grid__item-back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 30px 24px 25px 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background-color: var(--color_block);
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform cubic-bezier(0.41, 0.24, 0.36, 1.45) 0.5s 0.3s;
+  transform: rotateY(-180deg);
+}
+
+.grid__item-back:after {
+  content: '';
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 58px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.grid__item:hover .grid__item-back {
+  transform: rotateY(0deg);
+}
+
+@media screen and (max-width: 920px) {
+  .grid__item:hover .grid__item-back {
+    transform: rotateY(-180deg);
+  }
+}

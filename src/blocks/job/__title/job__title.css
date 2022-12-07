@@ -1,0 +1,13 @@
+.job__title {
+  margin: 50px 0 0;
+}
+
+
+@media screen and (max-width: 470px) {
+  .job__title {
+    margin: 30px 0 0;
+    font-weight: var(--font_font_weight_h2);
+    font-size: 27px;
+    line-height: 32px;
+  }
+}

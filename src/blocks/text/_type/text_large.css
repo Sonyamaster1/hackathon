@@ -1,0 +1,20 @@
+.text_large {
+  font-family: var(--font_font_large); /*30px*/
+  font-weight: var(--font_font_weight_large);
+  font-size: var(--font_size_large);
+  line-height: var(--font_line_height_large);
+}
+
+@media screen and (max-width: 1024px) {
+  .text_large {
+    font-size: var(--font_size_regular); /* 25px */
+    line-height: var(--font_line_height_regular);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .text_large {
+    font-size: var(--font_size_large_mob); /* 20px */
+    line-height: var(--font_line_height_large_mob);
+  }
+}

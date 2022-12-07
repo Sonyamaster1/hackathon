@@ -1,0 +1,13 @@
+.job__summary-text {
+  margin: 0;
+}
+
+.job__summary-text:not(:last-of-type) {
+  padding: 0 0 20px;
+}
+
+@media screen and (max-width: 470px) {
+  .job__summary-text {
+    line-height: 1.4;
+  }
+}

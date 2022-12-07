@@ -1,0 +1,20 @@
+.cards-slider__card-blur {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  backdrop-filter: blur(2.5px);
+  opacity: 1;
+}
+
+.cards-slider__card_unblur > .cards-slider__card-image-wrapper > .cards-slider__card-blur {
+  opacity: 0;
+}
+
+.cards-slider__card_unblur > .cards-slider__card-description > .cards-slider__card-blur {
+  opacity: 0;
+}

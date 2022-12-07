@@ -1,0 +1,11 @@
+.popup__close {
+  position: absolute;
+  max-width: 32px;
+  min-height: 32px;
+  top: 37px;
+  right: 57px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}

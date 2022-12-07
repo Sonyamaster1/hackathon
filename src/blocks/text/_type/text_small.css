@@ -1,0 +1,6 @@
+.text_small {
+  font-family: var(--font_font_small);
+  font-weight: var(--font_font_weight_small);
+  font-size: var(--font_size_small);
+  line-height: var(--font_line_height_small);
+}

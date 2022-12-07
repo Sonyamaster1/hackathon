@@ -1,0 +1,13 @@
+.popup__error-message {
+  margin: 0;
+  padding: 0;
+  width: 384px;
+  min-height: 20px;
+  visibility: hidden;
+  color:#E36563;
+  font-family: 'YS Display', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}

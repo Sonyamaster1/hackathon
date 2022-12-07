@@ -1,0 +1,21 @@
+.footer__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@media screen and (max-width: 920px) {
+  .footer__grid {
+    grid-template-columns: 0.8fr 1fr;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .footer__grid {
+    grid-template-columns:  1fr;
+    gap: 40px;
+  }
+}

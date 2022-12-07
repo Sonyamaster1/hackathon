@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 175px;
+  margin: 175px auto 0 auto;
+  max-width: 1440px;
+  background-color: #f0f0f0;
+  border-radius: 40px 40px 0px 0px;
+  padding: 80px 0 120px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin: 145px auto 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .footer {
+    padding: 40px 0 120px;
+    margin: 90px auto 0;
+  }
+}

@@ -1,0 +1,18 @@
+.contacts__btn_type_ld {
+  background-image: url(../../../../images/LD.svg);
+  border: none;
+  background-repeat: no-repeat;
+}
+
+.contacts__link:hover > .contacts__btn_type_ld {
+  background-image: url(../../../../images/LD_h.svg);
+}
+.contacts__link:active > .contacts__btn_type_ld {
+  background-image: url(../../../../images/LD_p.svg);
+}
+
+@media screen and (max-width: 756px) {
+  .contacts__btn_type_ld {
+    background-size: 56px 57px;
+  }
+}

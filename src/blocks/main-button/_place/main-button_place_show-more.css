@@ -1,0 +1,8 @@
+.main-button_place_show-more {
+  margin: 40px 0 0;
+  display: none;
+}
+
+.main-button_place_show-more_visible {
+  display: block;
+}

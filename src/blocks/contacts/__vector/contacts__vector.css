@@ -1,0 +1,11 @@
+.contacts__vector {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+@media (max-width:375px) {
+  .contacts__vector{
+    width: 0;
+    height: 0;
+  }
+}

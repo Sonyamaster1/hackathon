@@ -1,0 +1,9 @@
+.vacancies__empty {
+  margin: 10px 0 0;
+  padding: 44px var(--margin_M);
+  max-width: 1200px;
+  display: none;
+  justify-content: space-between;
+  background-color: #3F75E0;
+  border-radius: 40px;
+}

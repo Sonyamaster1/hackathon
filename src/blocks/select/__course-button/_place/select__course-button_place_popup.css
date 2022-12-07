@@ -1,0 +1,12 @@
+.select__course-button_place_popup {
+  margin: 0;
+  padding: 0 16px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 10px;
+}
+
+.select__course-radio_place_popup:checked + .select__course-button_place_popup {
+  background-color: #262626;
+  color: #fff;
+}

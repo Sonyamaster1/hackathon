@@ -1,0 +1,21 @@
+.title_h2 {
+  font-family: var(--font_font_h2);
+  font-weight: var(--font_font_weight_h2);
+  font-size: var(--font_size_h2); /* 60px */
+  line-height: var(--font_line_height_h2);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .title_h2 {
+    font-size: var(--font_size_h3); /* 40px */
+    line-height: var(--font_line_height_h3);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .title_h2 {
+    font-size: var(--font_size_h2_mob); /* 28px */
+    line-height: var(--font_line_height_h2_mob);
+  }
+}

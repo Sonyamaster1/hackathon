@@ -1,0 +1,12 @@
+.choose__list {
+  margin: 15px 0 30px;
+  padding: 0;
+  max-width: 490px;
+  list-style: none;
+}
+
+@media screen and (max-width: 470px) {
+  .choose__list  {
+    margin: 10px 0 0;
+  }
+}

@@ -1,0 +1,9 @@
+.departments__title {
+  margin: 0 0 40px;
+}
+
+@media screen and (max-width: 470px) {
+  .departments__title {
+    margin: 0 0 26px;
+  }
+}

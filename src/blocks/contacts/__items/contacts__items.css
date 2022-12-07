@@ -1,0 +1,29 @@
+.contacts__items {
+ max-width: 1200px;
+ display: flex;
+ justify-content: center;
+ gap: 100px;
+ position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts__items {
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .contacts__items {
+    max-width: 630px;
+    justify-content: space-between;
+    gap: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .contacts__items {
+    max-width: 460px;
+  }
+}
+

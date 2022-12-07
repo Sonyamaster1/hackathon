@@ -1,0 +1,13 @@
+.popup__video-wrapper {
+  position: relative;
+  width: 749px;
+  height: 596px;
+  padding: 0 30px;
+}
+
+@media screen and (max-width: 756px) {
+  .popup__video-wrapper {
+    width: 480px;
+    height: 270px;
+  }
+}

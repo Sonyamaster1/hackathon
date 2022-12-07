@@ -1,0 +1,7 @@
+.grid__item-back_type_fact:after {
+  content: none;
+}
+
+.grid__item-back_type_fact {
+  background: url(./../../../../images/yellow_back.png);
+}

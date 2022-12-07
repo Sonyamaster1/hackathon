@@ -1,0 +1,19 @@
+.header {
+  padding: 30px 0;
+  max-width: 1200px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color_background);
+  position: sticky;
+  top: -110px;
+  z-index: 5;
+  transition: top .3s linear;
+}
+
+@media screen and (max-width: 1260px) {
+  .header {
+    padding: 30px;
+  }
+}

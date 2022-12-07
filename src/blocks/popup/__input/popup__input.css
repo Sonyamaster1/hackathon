@@ -1,0 +1,23 @@
+.popup__input {
+  margin: 0;
+  padding: 0 12px;
+  width: 384px;
+  height: 50px;
+  border: 2px solid #E0E0E0;
+  border-radius: 14px;
+  position: relative;
+}
+
+.popup__input:focus {
+  outline: none;
+  border: 2px solid #262626;
+}
+
+.popup__input::placeholder {
+  font-family: 'YS Display', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #929191;
+}

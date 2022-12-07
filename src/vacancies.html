@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вакансии</title>
+</head>
+
+<body class="window">
+  <div class="page">
+    <header class="header page__header header_place_job">
+      <a href="#page" class="header__navigation-link">
+        <img
+          src="<%=require('./images/logo-short.svg')%>"
+          alt="yandex logo"
+          class="header__logo" />
+      </a>
+      <button
+        type="button"
+        class="text_small main-button main-button_type_secondary main-button_place_job main-button_place_vacancies">
+        Откликнуться
+      </button>
+    </header>
+    <main class="content page__content">
+      <div class="job">
+        <a href="./index.html" class="link_type_return text_small">К списку предложений</a>
+        <h3 class="job__title title_h3">Наставник на курс «Мидл фронтенд-разработчик»</h3>
+        <p class="job__salary text_large">[Оплата в среднем 35 тысяч ₽]</p>
+
+        <article class="job__description">
+          <div class="job__summary">
+            <p class="job__summary-text text_regular">
+              Яндекс Практикум&nbsp;&mdash; это сервис онлайн-образования, доступный в&nbsp;России и&nbsp;Америке.
+              Мы&nbsp;помогаем людям расти&nbsp;&mdash; на&nbsp;работе и&nbsp;в&nbsp;жизни.
+            </p>
+            <p class="job__summary-text text_regular">
+              Сейчас мы&nbsp;делаем продвинутый курс &laquo;Мидл фронтенд-разработчик&raquo;,
+              наши студенты&nbsp;&mdash; разработчики с&nbsp;опытом,
+              которые замотивированы решать интересные задачи. Наша цель&nbsp;&mdash; научить студентов не&nbsp;просто кодингу,
+              а&nbsp;дать им&nbsp;мышление инженера, который отлично разбирается в&nbsp;применяемых технологиях и&nbsp;может
+              самостоятельно решать сложные задачи.
+              Если у&nbsp;вас есть знания и&nbsp;опыт в&nbsp;области фронтенд-разработки, то&nbsp;вы&nbsp;можете стать наставником.
+            </p>
+          </div>
+          <div class="job__description-textarea">
+            <h3 class="job__description-title text_large">Что делает наставник?</h3>
+            <p class="job__description-text text_regular">
+              Наставник помогает студентам учиться: отвечает на вопросы и помогает с трудностями.
+              Каждый наставник курирует группу из 50 студентов: общается с ними в Slack,
+              проводит групповые звонки на протяжении 4 месяцев обучения и постоянно улучшает образовательный опыт.
+            </p>
+          </div>
+          <div class="job__description-textarea">
+            <h3 class="job__description-title text_large">Я хочу стать наставником. Меня возьмут?</h3>
+            <p class="job__description-text text_regular">
+              Скорее всего — да, если вы:
+            </p>
+            <ul class="job__description-requirements-list">
+              <li class="job__description-requirement">
+                <p
+                  class="job__description-text job__description-text_type_list text_regular">
+                  <span class="job__description-text-span"> &bull;</span>
+                  имеете опыт работы программистом больше трех лет знаете HTML, CSS
+                </p>
+              </li>
+              <li class="job__description-requirement">
+                <p
+                  class="job__description-text job__description-text_type_list text_regular">
+                  <span class="job__description-text-span"> &bull;</span>
+                  работали с JavaScript, React, TypeScript, Node.js
+                </p>
+              </li>
+              <li class="job__description-requirement">
+                <p
+                  class="job__description-text job__description-text_type_list text_regular">
+                  <span class="job__description-text-span"> &bull;</span>
+                  готовы посвящать проекту от 8 до 12 часов в неделю.
+                </p>
+              </li>
+              <li class="job__description-requirement">
+                <p
+                  class="job__description-text job__description-text_type_list text_regular">
+                  <span class="job__description-text-span"> &bull;</span>
+                  Удобное для вас время будем рады обсудить лично
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="job__description-textarea">
+            <h3 class="job__description-title text_large">Я подхожу. Что вы можете мне предложить?</h3>
+            <ul class="job__description-requirements-list">
+              <li class="job__description-requirement">
+                <p
+                  class="job__description-text job__description-text_type_list text_regular">
+                  <span class="job__description-text-span"> &bull;</span>
+                  Удалённое сотрудничество и ежемесячное вознаграждение;
+                </p>
+              </li>
+              <li class="job__description-requirement">
+                <p
+                  class="job__description-text job__description-text_type_list text_regular">
+                  <span class="job__description-text-span"> &bull;</span>
+                  частичную занятость и возможность совмещать участие в проекте с основной работой;
+                </p>
+              </li>
+              <li class="job__description-requirement">
+                <p
+                  class="job__description-text job__description-text_type_list text_regular">
+                  <span class="job__description-text-span"> &bull;</span>
+                  обмен опытом с разработчиками в нашем сообществе;
+                </p>
+              </li>
+              <li class="job__description-requirement">
+                <p
+                  class="job__description-text job__description-text_type_list text_regular">
+                  <span class="job__description-text-span"> &bull;</span>
+                  обучение в Школе наставников Яндекс.Практикума.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="job__description-textarea">
+            <h3 class="job__description-title text_large">
+              Как я пойму, что у меня достаточно экспертизы, чтобы делиться знаниями со студентами?
+            </h3>
+            <p class="job__description-text text_regular">
+              <ul class="job__description-requirements-list">
+                <li class="job__description-requirement">
+                  <p
+                    class="job__description-text job__description-text_type_list text_regular">
+                    <span class="job__description-text-span"> &bull;</span>
+                    Мы в первую очередь ценим практический опыт с теми технологиями,
+                    которые изучают на наших курсах. Нам важно, чтобы наставники делились
+                    с группой настоящими рабочими кейсами, поэтому экспертами становятся
+                    разработчики уровня мидл и старше.
+                  </p>
+                </li>
+                <li class="job__description-requirement">
+                  <p
+                    class="job__description-text job__description-text_type_list text_regular">
+                    <span class="job__description-text-span"> &bull;</span>
+                    Опыт преподавания или обучения необязателен, главное — желание.
+                    Каждый эксперт проходит Школу наставников от Практикума,
+                    где знакомится с лучшими практиками образовательного процесса
+                    и с другими наставниками
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </div>
+          <div class="job__description-textarea">
+            <h3 class="job__description-title text_large">
+              Что такое Школа наставников и сколько времени она занимает?
+            </h3>
+            <p class="job__description-text text_regular">
+              Школа наставников — это двухнедельный интенсив по коммуникации и управлению командой для IT-специалистов.
+              Вы узнаете, как передавать знания и опыт начинающим разработчикам и создавать условия для развития самостоятельности своих подопечных.
+              Вас ждёт пять вебинаров в вечернее время продолжительностью 2,5 часа и небольшие домашние задания, рассчитанные на 30-60 минут.
+            </p>
+          </div>
+        </article>
+        <button
+          type="button"
+          class="text_small main-button main-button_type_primary main-button_place_vacancies">
+          Откликнуться
+        </button>
+      </div>
+    </main>
+    <footer class="footer page__footer footer_place_job">
+      <div class="footer__grid">
+        <div class="footer__connection">
+          <div class="call">
+            <p class="call__num text_large">8-800-700-93-29</p>
+            <p class="call__text text_regular">Звонок&nbsp;по&nbsp;России&nbsp;бесплатный</p>
+          </div>
+          <div class="footer__journal">
+            <a
+              class="text_regular footer__journal-text"
+              href="https://thecode.media/"
+              target="_blank"
+              >Журнал</a
+            >
+            <a
+              href="https://vk.com/yandex"
+              target="_blank"
+              class="footer__journal-img footer__journal-img_type_vk"
+              ><img src="<%=require('./images/vk_f.svg')%>" alt="vk" /></a
+            ><a
+              href="https://t.me/yandex"
+              target="_blank"
+              class="footer__journal-img footer__journal-img_type_tg"
+              ><img src="<%=require('./images/telegram.svg')%>" alt="telegram"
+            /></a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="add">
+            <a class="add__text text_regular" href="#">Помощь</a>
+            <a class="add__text text_regular" href="#">Предложения</a>
+            <a
+              class="add__text text_regular"
+              href="https://code.s3.yandex.net/License%20YSDA.pdf"
+              target="_blank"
+              >Лицензия</a>
+          </div>
+          <div class="about">
+            <a class="about__text text_regular" href="#">Правовая информация</a>
+            <a class="about__text text_regular" href="#">Для работодателей</a>
+            <a class="about__text text_regular" href="#">Отзывы</a>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p class="text_regular info__text">
+            &copy;&nbsp;2022&nbsp;АНО&nbsp;ДПО&nbsp;«ШАД», ООО&nbsp;«Яндекс»&nbsp;
+          </p>
+        </div>
+        <div class="info">
+          <div class="info__text-container">
+            <p class="text_regular info__text-agree">
+              Информация на данной странице описывает возможные варианты
+              получения дополнительного дохода в месяц (т.н. подработка). Не
+              является предложением о работе. Размещенные объявления о
+              потребности в тех или иных услугах не являются вакансиями.
+            </p>
+            <p class="text_regular info__text-agree info__text-none">
+              Образовательные услуги оказываются АНО ДПО «ШАД». ШАД —
+              <a
+                class="info__link"
+                href="https://academy.yandex.ru/dataschool/"
+                target="_blank"
+                >это Школа анализа данных</a
+              >, основанная Яндексом и оказывающая образовательные услуги на
+              основании
+              <a
+                class="info__link"
+                href="https://code.s3.yandex.net/License%20YSDA.pdf"
+                target="_blank"
+                >Лицензии № 036031</a
+              >
+              от 24 марта 2015 года.
+            </p>
+            <p class="text_regular info__text-agree info__text-none">
+              Сертификат о прохождении обучения по программе дополнительного
+              профессионального образования также выдается АНО ДПО «ШАД».
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!----------- блок popup form с обратной связью ----------->
+    <section class="popup popup_type_short-form">
+      <form name="tell-us" class="popup__form popup__form_type_short-form" novalidate>
+        <fieldset class="popup__fieldset">
+          <legend class="popup__title text_regular-bold">
+            Хочу стать наставником на курсе «Мидл фронтенд-разработчик»
+          </legend>
+          <div class="popup__input-wrapper popup__input-wrapper_type_name">
+            <input type="text" name="name" placeholder="Имя" id="name-input" class="popup__input popup__input_type_name text_radio" required minlength="2" maxlength="30">
+            <span class="popup__error-message name-input-error"></span>
+          </div>
+          <div class="popup__input-wrapper">
+            <input type="email" name="email" placeholder="Email" id="email-input" class="popup__input popup__input_type_email text_radio" required>
+            <span class="popup__error-message email-input-error"></span>
+          </div>
+          <div class="popup__contacts-wrapper">
+            <input type="radio" name="contact" id="contact-telephone" value="telephone" class="popup__contact-radio popup__contact-radio_type_phone" checked/>
+            <label for="contact-telephone" class="popup__contacts-radio-label text_radio">
+              Телефон
+            </label>
+            <input type="radio" name="contact" id="contact-telegram" value="telegram" class="popup__contact-radio popup__contact-radio_type_telegram"/>
+            <label for="contact-telegram" class="popup__contacts-radio-label text_radio">
+              Телеграм
+            </label>
+          </div>
+          <div class="popup__input-wrapper popup__input-wrapper_type_phone">
+            <input type="tel" name="phone" placeholder="+7" id="phone-input" class="popup__input popup__input_type_phone text_radio" required>
+            <span class="popup__error-message phone-input-error"></span>
+          </div>
+          <div class="popup__input-wrapper popup__input-wrapper_type_telegram popup__input-wrapper_hidden">
+            <input type="text" name="telegram" placeholder="@" id="telefram-input" class="popup__input popup__input_type_telegram text_radio">
+            <span class="popup__error-message telegram-input-error"></span>
+          </div>
+          <div class="popup__input-wrapper popup__input-wrapper_type_url">
+            <input type="url" name="url" placeholder="Ссылка на резюме" id="url-input" class="popup__input popup__input_type_url text_radio" required>
+            <span class="popup__error-message url-input-error"></span>
+          </div>
+          <div class="popup__contacts-wrapper popup__contacts-wrapper_place_permission">
+            <input type="checkbox" name="contact-checkbox" id="contact-checkbox" value="agree" class="popup__contact-checkbox"/>
+            <label for="contact-checkbox" class="popup__contacts-checkbox-label text_radio">
+              Даю согласие на обработку персональных данных
+            </label>
+          </div>
+        </fieldset>
+        <button type=submit class="main-button main-button_type_primary main-button_type_primary-disabled main-button_place_popup text_small">
+          Отправить
+        </button>
+        <button type=reset class="popup__close popup__close_place_form"></button>
+      </form>
+    </section>
+  </div>
+</body>
+
+</html>

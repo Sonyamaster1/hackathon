@@ -1,0 +1,9 @@
+.add__text {
+  margin: 15px 0 0 0;
+  padding: 0;
+  text-decoration: none;
+  color: #000;
+}
+.add__text:first-child {
+  margin: 0;
+}

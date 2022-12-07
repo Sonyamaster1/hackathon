@@ -1,0 +1,6 @@
+@media screen and (max-width: 470px) {
+  .footer__journal-img > img{
+    width: 23px;
+    height: 23px;
+  }
+}

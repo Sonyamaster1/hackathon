@@ -1,0 +1,16 @@
+.videos__grid {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 215px 0 136px 205px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 756px) {
+  .videos__grid {
+    gap: 15px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 124px 58px 120px 16px 122px;
+  }
+}

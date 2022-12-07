@@ -1,0 +1,10 @@
+.grid__item {
+  position: relative;
+  cursor: pointer;
+  perspective: 1500px;
+}
+
+.grid__item:has(.grid__link:focus-visible) {
+  border: 2px solid #F2D66B;
+  border-radius: 30px;
+}

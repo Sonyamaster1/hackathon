@@ -1,0 +1,26 @@
+.choose__card {
+  margin: 0;
+  padding: 54px 50px;
+  max-width: 590px;
+  min-height: 712px;
+  box-sizing: border-box;
+  background-color: #F0F0F0;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media screen and (max-width: 920px) {
+  .choose__card {
+    max-width: 590px;
+    min-width: 315px;
+    min-height: 490px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .choose__card {
+    padding: 25px 20px;
+  }
+}

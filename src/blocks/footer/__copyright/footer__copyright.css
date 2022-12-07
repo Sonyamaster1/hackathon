@@ -1,0 +1,5 @@
+@media screen and (max-width: 756px) {
+  .footer__copyright {
+    grid-row-start: 4;
+  }
+}

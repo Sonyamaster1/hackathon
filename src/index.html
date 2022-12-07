@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Title</title>
+</head>
+
+<body class="window">
+  <div id="page" class="page">
+    <!----------- блок header ----------->
+    <header class="header page__header">
+      <a href="#page" class="header__navigation-link">
+        <img src="<%=require('./images/logo-short.svg')%>" alt="yandex logo" class="header__logo" />
+      </a>
+      <nav class="header__navigation-bar">
+        <ul class="header__navigation-links">
+          <li>
+            <a
+                href="#choose"
+                class="header__navigation-link link_place_header text_regular"
+              >
+              Направления
+            </a>
+          </li>
+          <li>
+            <a href="#vacancies" class="header__navigation-link link_place_header text_regular">
+              Предложения
+            </a>
+          </li>
+          <li>
+            <a href="#reviews" class="header__navigation-link link_place_header text_regular">
+              Отзывы
+            </a>
+          </li>
+          <li>
+            <a href="#faq" class="header__navigation-link link_place_header text_regular">
+                FAQ
+              </a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#vacancies" class="link_place_button">
+        <button type="button" class="main-button main-button_type_ghost main-button_place_header text_small">
+          Хочу делиться знаниями
+        </button>
+      </a>
+      <div class="menu__icon">
+        <div class="menu__bar1"></div>
+        <div class="menu__bar2"></div>
+        <div class="menu__bar3"></div>
+      </div>
+    </header>
+    <main class="content page__content">
+      <!----------- блок lead ----------->
+      <section class="lead content__lead">
+        <h1 class="lead__title title_h1">
+          Делись знаниями,
+          <span class="lead__title-span lead__title-span_align_baseline">
+            <img src="<%=require('./images/lead_1.png')%>" alt="decoration" class="lead__image lead__image_1" />
+          </span>
+          <br />
+          расти в профессии и делай
+          <span class="lead__title-span lead__title-span_align_middle">
+            <img src="<%=require('./images/bullet_1.svg')%>" alt="decoration" class="lead__image lead__image_2" />
+          </span>
+          мир лучше
+          <span class="lead__title-span lead__title-span_align_middle">
+            <a href="#vacancies" class="link_place_button">
+              <button type="button" class="text_small main-button main-button_place_lead main-button_type_primary">
+                Хочу делиться знаниями
+              </button>
+            </a>
+          </span>
+          <span class="lead__title-span lead__title-span_align_top">
+            <img src="<%=require('./images/lead_2.svg')%>" alt="decoration" class="lead__image lead__image_3" />
+          </span>
+        </h1>
+      </section>
+      <!----------- блок cards-slider ----------->
+      <section class="cards-slider content__cards-slider">
+        <div class="cards-slider__scroll-wrapper">
+          <h2 class="cards-slider__title title_h2">Что будете делать</h2>
+          <div class="cards-slider__gallery">
+            <ul class="cards-slider__cards">
+              <li>
+                <article class="cards-slider__card cards-slider__card_color_black cards-slider__card_6">
+                  <div class="cards-slider__card-description">
+                    <h3 class="cards-slider__card-title text_large">
+                      Развиваться внутри вашей роли
+                    </h3>
+                    <p class="cards-slider__subtitle text_regular">
+                      вы сможете стать старшим наставником или сеньор-ревьювером
+                    </p>
+                    <div class="cards-slider__card-blur cards-slider__card-blur_card_6"></div>
+                  </div>
+                  <div class="cards-slider__card-image-wrapper">
+                    <img src="<%=require('./images/card_slider_6.jpg')%>" alt="card photo"
+                      class="cards-slider__card-image" />
+                    <div class="cards-slider__card-blur cards-slider__card-blur_place_image cards-slider__card-blur_card_6"></div>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="cards-slider__card cards-slider__card_color_purple cards-slider__card_5">
+                  <div class="cards-slider__card-description">
+                    <h3 class="cards-slider__card-title text_large">
+                      Общаться с людьми из EdTech
+                    </h3>
+                    <p class="cards-slider__subtitle text_regular">
+                      станете частью сообщества экспертов и посмотрите на мир
+                      онлайн-образования изнутри
+                    </p>
+                    <div class="cards-slider__card-blur cards-slider__card-blur_card_5"></div>
+                  </div>
+                  <div class="cards-slider__card-image-wrapper">
+                    <img src="<%=require('./images/card_slider_5.jpg')%>" alt="card photo"
+                      class="cards-slider__card-image" />
+                    <div class="cards-slider__card-blur cards-slider__card-blur_place_image cards-slider__card-blur_card_5"></div>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="cards-slider__card cards-slider__card_color_blue cards-slider__card_4">
+                  <div class="cards-slider__card-description">
+                    <h3 class="cards-slider__card-title text_large">
+                      Развивать личный бренд
+                    </h3>
+                    <p class="cards-slider__subtitle text_regular">
+                      публикуйте статьи в нашем блоге и выступайте
+                      на мероприятиях, чтобы о вас узнали как об эксперте
+                    </p>
+                    <div class="cards-slider__card-blur cards-slider__card-blur_card_4"></div>
+                  </div>
+                  <div class="cards-slider__card-image-wrapper">
+                    <img src="<%=require('./images/card_slider_4.jpg')%>" alt="card photo"
+                      class="cards-slider__card-image" />
+                    <div class="cards-slider__card-blur cards-slider__card-blur_place_image cards-slider__card-blur_card_4"></div>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="cards-slider__card cards-slider__card_color_black cards-slider__card_3">
+                  <div class="cards-slider__card-description">
+                    <h3 class="cards-slider__card-title text_large">
+                      Менять жизнь людей к лучшему
+                    </h3>
+                    <p class="cards-slider__subtitle text_regular">
+                      тысячи наших студентов нуждаются в ваших знаниях и опыте —
+                      не бойтесь ими делиться
+                    </p>
+                    <div class="cards-slider__card-blur cards-slider__card-blur_card_3"></div>
+                  </div>
+                  <div class="cards-slider__card-image-wrapper">
+                    <img src="<%=require('./images/card_slider_3.jpg')%>" alt="card photo"
+                      class="cards-slider__card-image" />
+                    <div class="cards-slider__card-blur cards-slider__card-blur_place_image cards-slider__card-blur_card_3"></div>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="cards-slider__card cards-slider__card_color_pink cards-slider__card_2">
+                  <div class="cards-slider__card-description">
+                    <h3 class="cards-slider__card-title text_large">
+                      Учиться новому
+                    </h3>
+                    <p class="cards-slider__subtitle text_regular">
+                      вы узнаете, как давать обратную связь, выступать
+                      на публике и мотивировать людей
+                    </p>
+                    <div class="cards-slider__card-blur cards-slider__card-blur_card_2"></div>
+                  </div>
+                  <div class="cards-slider__card-image-wrapper">
+                    <img src="<%=require('./images/card_slider_2.jpg')%>" alt="card photo"
+                      class="cards-slider__card-image" />
+                    <div class="cards-slider__card-blur cards-slider__card-blur_place_image cards-slider__card-blur_card_2"></div>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article
+                  class="cards-slider__card cards-slider__card_color_blue cards-slider__card_active  cards-slider__card_unblur cards-slider__card_1">
+                  <div class="cards-slider__card-description">
+                    <h3 class="cards-slider__card-title text_large">
+                      Иметь доход от 35 до 50 тысяч ₽ в месяц
+                    </h3>
+                    <p class="cards-slider__subtitle text_regular">
+                      работайте по 2-3 часа в день, в группе ≈50 человек, график
+                      выбираете сами
+                    </p>
+                    <div class="cards-slider__card-blur cards-slider__card-blur_card_1"></div>
+                  </div>
+                  <div class="cards-slider__card-image-wrapper">
+                    <img src="<%=require('./images/card_slider_1.jpg')%>" alt="card photo"
+                      class="cards-slider__card-image" />
+                    <div class="cards-slider__card-blur cards-slider__card-blur_place_image cards-slider__card-blur_card_1"></div>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!----------- блок how-to ----------->
+        <section class="how-to content__how-to">
+          <h2 class="how-to__title title_h2">Как стать экспертом</h2>
+          <ul class="how-to__recommendation-list">
+            <li class="how-to__recommendation-list-item">
+              <img
+                src="<%=require('./images/bullet_1.svg')%>"
+                alt="list bullet"
+                class="how-to__recommendation-list_bullet"
+              />
+              <p class="how-to__recommendation title_h3">
+                Выберите роль и заполните заявку
+              </p>
+            </li>
+            <li class="how-to__recommendation-list-item">
+              <img
+                src="<%=require('./images/bullet_2.svg')%>"
+                alt="list bullet"
+                class="how-to__recommendation-list_bullet"
+              />
+              <p class="how-to__recommendation title_h3">
+                Пройдите отбор и бесплатное обучение
+              </p>
+            </li>
+            <li class="how-to__recommendation-list-item">
+              <img
+                src="<%=require('./images/bullet_3.svg')%>"
+                alt="list bullet"
+                class="how-to__recommendation-list_bullet"
+              />
+              <p class="how-to__recommendation title_h3">
+                Начните&nbsp;делиться знаниями со студентами
+              </p>
+            </li>
+          </ul>
+        </section>
+        <!----------- блок выбора профессии ----------->
+        <section id="choose" class="choose content__choose">
+          <h2 class="choose__title title_h2">Выберите роль по душе</h2>
+          <div class="choose__cards">
+            <div class="choose__card">
+              <img
+                src="<%=require('./images/choose_card_1.jpg')%>"
+                alt="card photo"
+                class="choose__card-image"
+              />
+              <h3 class="choose__card-title title_h3">Наставник</h3>
+              <ul class="choose__list">
+                <li class="choose__list-item">
+                  <p class="choose__text text_regular">
+                    <span class="choose__text-span"> &bull; </span>
+                    помогает студентам ставить цели, рефлексировать и делать
+                    выводы
+                  </p>
+                </li>
+                <li class="choose__list-item">
+                  <p class="choose__text text_regular">
+                    <span class="choose__text-span"> &bull; </span>
+                    проводит вебинары 2 раза в месяц <br />
+                    и дает обратную связь
+                  </p>
+                </li>
+                <li class="choose__list-item">
+                  <p class="choose__text text_regular">
+                    <span class="choose__text-span"> &bull; </span>
+                    делится опытом и мотивирует
+                  </p>
+                </li>
+              </ul>
+              <a href="#vacancies" class="link_place_choose">
+                <button class="text_extra_small main-button main-button_place_choose main-button_type_secondary add__text_form_btn">
+                  Хочу стать наставником
+                </button>
+              </a>
+            </div>
+            <div class="choose__card">
+              <img
+                src="<%=require('./images/choose_card_2.jpg')%>"
+                alt="card photo"
+                class="choose__card-image"
+              />
+              <h3 class="choose__card-title title_h3">Ревьюер</h3>
+              <ul class="choose__list">
+                <li class="choose__list-item">
+                  <p class="choose__text text_regular">
+                    <span class="choose__text-span"> &bull; </span>
+                    проверяет код и проекты студентов
+                  </p>
+                </li>
+                <li class="choose__list-item">
+                  <p class="choose__text text_regular">
+                    <span class="choose__text-span"> &bull; </span>
+                    простыми словами объясняет им их ошибки и недочеты
+                  </p>
+                </li>
+                <li class="choose__list-item">
+                  <p class="choose__text text_regular">
+                    <span class="choose__text-span"> &bull; </span>
+                    дает корректирующую обратную связь
+                  </p>
+                </li>
+                <li class="choose__list-item">
+                  <p class="choose__text text_regular">
+                    <span class="choose__text-span"> &bull; </span>
+                    оценивает работы<span class="choose__text_add">
+                      — «зачёт»/«незачёт»</span
+                    >
+                  </p>
+                </li>
+              </ul>
+              <a href="#vacancies" class="link_place_choose">
+                <button class="text_extra_small main-button main-button_place_choose main-button_type_secondary">
+                  Хочу стать ревьюером
+                </button>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!----------- блок departments ----------->
+        <section class="departments content__departments">
+          <h2 class="departments__title title_h2">О нашем проекте</h2>
+          <div class="grid">
+            <div class="grid__wrapper">
+              <div class="grid__item active grid__item_position_1">
+                <div class="grid__item-front grid__item-front_type_fact">
+                  <h3 class="grid__item-title_type_fact title_h3">
+                    Яндекс Практикум&nbsp;— это сервис digital образования.
+                    <span class="title_h3 grid__item-title_hidden"
+                      >Мы помогаем людям расти&mdash;на работе и в жизни.</span
+                    >
+                  </h3>
+                </div>
+                <div class="grid__item-back grid__item-back_type_fact">
+                  <h3 class="grid__item-title_type_fact title_h3">
+                    Мы&nbsp;помогаем людям расти&nbsp;- на&nbsp;работе и&nbsp;в&nbsp;жизни.
+                  </h3>
+                </div>
+              </div>
+              <div class="grid__item grid__item_position_2">
+                <div class="grid__item-front">
+                  <h3 class="grid__item-title text_large">Анализ данных</h3>
+                  <img
+                    class="grid__icon"
+                    src="<%=require('./images/Party.svg')%>"
+                    alt="decoration"
+                  />
+                </div>
+                <a href="https://practicum.yandex.ru/catalog/data-analysis/" class="grid__link_type_mob" target="_ blank"></a>
+                <div class="grid__item-back">
+                  <h3 class="grid__item-title text_large">Анализ данных</h3>
+                  <p class="grid__item-description text_regular">
+                    Учим анализировать данные
+                  </p>
+                  <a class="grid__link" href="https://practicum.yandex.ru/catalog/data-analysis/" target="_ blank"> Узнать больше </a>
+                </div>
+              </div>
+              <div class="grid__item grid__item_position_3">
+                <div class="grid__item-front">
+                  <h3 class="grid__item-title text_large">Маркетинг</h3>
+                  <img
+                    class="grid__icon"
+                    src="<%=require('./images/Hole.svg')%>"
+                    alt="decoration"
+                  />
+                </div>
+                <a href="https://practicum.yandex.ru/catalog/marketing/" class="grid__link_type_mob" target="_ blank"></a>
+                <div class="grid__item-back">
+                  <h3 class="grid__item-title text_large">Маркетинг</h3>
+                  <p class="grid__item-description text_regular">
+                    Учим запускать рекламу и&nbsp;управлять рекламными кампаниями.
+                    Отчеты, рассылки, PR, бренд и&nbsp;вот это все
+                  </p>
+                  <a class="grid__link" href="https://practicum.yandex.ru/catalog/marketing/" target="_ blank"> Узнать больше </a>
+                </div>
+              </div>
+              <div class="grid__item grid__item_position_4">
+                <div class="grid__item-front">
+                  <h3 class="grid__item-title text_large">Менеджмент</h3>
+                  <img
+                    class="grid__icon"
+                    src="<%=require('./images/star.svg')%>"
+                    alt="decoration"
+                  />
+                </div>
+                <a href="https://practicum.yandex.ru/catalog/management/" class="grid__link_type_mob" target="_ blank"></a>
+                <div class="grid__item-back">
+                  <h3 class="grid__item-title text_large">Менеджмент</h3>
+                  <p class="grid__item-description text_regular">
+                    Учим эффективно управлять проектами и&nbsp;продуктами
+                  </p>
+                  <a class="grid__link" href="https://practicum.yandex.ru/catalog/management/" target="_ blank"> Узнать больше </a>
+                </div>
+              </div>
+              <div class="grid__item grid__item_position_5">
+                <div class="grid__item-front">
+                  <h3 class="grid__item-title text_large">Программирование</h3>
+                  <img
+                    class="grid__icon"
+                    src="<%=require('./images/Hope.svg')%>"
+                    alt="decoration"
+                  />
+                </div>
+                <a href="https://practicum.yandex.ru/catalog/programming/" class="grid__link_type_mob" target="_ blank"></a>
+                <div class="grid__item-back">
+                  <h3 class="grid__item-title text_large">Программирование</h3>
+                  <p class="grid__item-description text_regular">
+                    Учим разработке и&nbsp;тестированию в&nbsp;условиях, которые имитируют
+                    реальную работу: с&nbsp;проектами, спринтами и&nbsp;дедлайнами
+                  </p>
+                  <a class="grid__link" href="https://practicum.yandex.ru/catalog/programming/" target="_ blank"> Узнать больше </a>
+                </div>
+              </div>
+              <div class="grid__item grid__item_position_6">
+                <div class="grid__item-front">
+                  <h3 class="grid__item-title text_large">Дизайн</h3>
+                  <img
+                    class="grid__icon"
+                    src="<%=require('./images/Dawn.svg')%>"
+                    alt=""
+                  />
+                </div>
+                <a href="https://practicum.yandex.ru/catalog/design/" class="grid__link_type_mob" target="_ blank"></a>
+                <div class="grid__item-back">
+                  <h3 class="grid__item-title text_large">Дизайн</h3>
+                  <p class="grid__item-description text_regular">
+                    Учим делать удобный и&nbsp;эстетичный дизайн
+                  </p>
+                  <a class="grid__link" href="https://practicum.yandex.ru/catalog/design/" target="_ blank"> Узнать больше </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!----------- блок vacancies ----------->
+        <section id="vacancies" class="vacancies content__vacancies">
+          <h2 class="vacancies__title title_h2">Открытые предложения</h2>
+          <form class="vacancies__form">
+            <fieldset class="select__role-selection">
+              <input
+                type="radio"
+                name="role"
+                id="role-mentor"
+                value="mentor"
+                class="select__role-radio"
+                checked
+              />
+              <label
+                for="role-mentor"
+                class="select__role-button text_radio"
+              >
+                Наставник
+              </label>
+              <input
+                type="radio"
+                name="role"
+                id="role-reviewer"
+                value="reviewer"
+                class="select__role-radio"
+              />
+              <label
+                for="role-reviewer"
+                class="select__role-button text_radio"
+              >
+                Ревьюер
+              </label>
+            </fieldset>
+            <fieldset class="select__course-selection">
+              <input
+                type="radio"
+                name="course"
+                id="course-programming"
+                value="programming"
+                class="select__course-radio"
+                checked
+              />
+              <label
+                for="course-programming"
+                class="select__course-button text_radio"
+              >
+                Программирование
+              </label>
+              <input
+                type="radio"
+                name="course"
+                id="course-analytics"
+                value="analytics"
+                class="select__course-radio"
+              />
+              <label
+                for="course-analytics"
+                class="select__course-button text_radio"
+              >
+                Аналитика
+              </label>
+              <input
+                type="radio"
+                name="course"
+                id="course-design"
+                value="design"
+                class="select__course-radio"
+              />
+              <label
+                for="course-design"
+                class="select__course-button text_radio"
+              >
+                Дизайн
+              </label>
+              <input
+                type="radio"
+                name="course"
+                id="course-marketing"
+                value="marketing"
+                class="select__course-radio"
+              />
+              <label
+                for="course-marketing"
+                class="select__course-button text_radio"
+              >
+                Маркетинг
+              </label>
+              <input
+                type="radio"
+                name="course"
+                id="course-management"
+                value="management"
+                class="select__course-radio"
+              />
+              <label
+                for="course-management"
+                class="select__course-button text_radio"
+              >
+                Менеджмент
+              </label>
+            </fieldset>
+          </form>
+          <ul class="accordion vacancies__cards"></ul>
+          <div class="vacancies__empty text_large">
+            <div class="vacancies__empty-description">
+              <h3 class="vacancies__empty-title">Таких предложений пока нет</h3>
+              <p class="vacancies__empty-text text_regular">
+                Расскажите нам о себе и мы сохраним ваши данные для возможного
+                сотрудничества в будущем
+              </p>
+            </div>
+            <button
+              type="button"
+              class="main-button main-button_type_secondary responce main-button_place_empty-vacancies text_extra_small"
+            >
+              Рассказать о себе
+            </button>
+          </div>
+          <template class="vacancies__card-template">
+            <li class="accordion__card accordion__card_type_mentor">
+              <div class="accordion__card-header">
+                <h3 class="accordion__card-header-title text_large"></h3>
+                <button class="accordion__card-header-button"></button>
+              </div>
+              <article class="accordion__card-description">
+                <h3 class="accordion__card-description-title text_regular-bold">
+                  [Оплата в среднем
+                  <span
+                    class="accordion__card-description-salary-amount"
+                  ></span>
+                  тысяч ₽]
+                </h3>
+                <div class="accordion__card-description-textarea">
+                  <h3
+                    class="accordion__card-description-title text_regular-bold"
+                  >
+                    Что делает наставник?
+                  </h3>
+                  <p class="accordion__card-description-text text_regular">
+                    Наставник помогает студентам учиться: отвечает на вопросы
+                    и помогает с трудностями. Каждый наставник курирует группу
+                    из 50 студентов: общается с ними в Slack, проводит групповые
+                    звонки на протяжении
+                    <span
+                      class="accordion__card-description-length text_regular"
+                    ></span>
+                    месяцев обучения и постоянно улучшает образовательный опыт.
+                  </p>
+                </div>
+                <div class="accordion__card-description-textarea">
+                  <h3
+                    class="accordion__card-description-title text_regular-bold"
+                  >
+                    Я хочу стать наставником. Меня возьмут?
+                  </h3>
+                  <div class="accordion__card-description-requirements">
+                    <p class="accordion__card-description-text text_regular">
+                      Скорее всего — да, если вы:
+                    </p>
+                    <ul class="accordion__card-description-requirements-list">
+                      <template class="accordion__card-description-template">
+                        <li class="accordion__card-description-requirement">
+                          <p
+                            class="accordion__card-description-text accordion__card-description-text_type_list text_regular"
+                          >
+                            <span class="accordion__card-description-text-span">
+                              &bull;
+                            </span>
+                            <span
+                              class="accordion__card-description-inserted-text"
+                            ></span>
+                          </p>
+                        </li>
+                      </template>
+                    </ul>
+                  </div>
+                </div>
+                <a
+                  type="button"
+                  class="text_small main-button main-button_place_vacancies main-button_type_secondary";
+                  href="./vacancies.html"
+                  target="_blank"
+                  >
+                  Откликнуться
+                </a>
+              </article>
+            </li>
+            <li class="accordion__card accordion__card_type_reviewer">
+              <div class="accordion__card-header">
+                <h3 class="accordion__card-header-title text_large"></h3>
+                <button class="accordion__card-header-button"></button>
+              </div>
+              <article class="accordion__card-description">
+                <h3 class="accordion__card-description-title text_regular-bold">
+                  [Оплата в среднем
+                  <span
+                    class="accordion__card-description-salary-amount"
+                  ></span>
+                  тысяч ₽]
+                </h3>
+                <div class="accordion__card-description-textarea">
+                  <h3
+                    class="accordion__card-description-title text_regular-bold"
+                  >
+                    Что делает ревьюер?
+                  </h3>
+                  <p class="accordion__card-description-text text_regular">
+                    Проверяет написанный студентом код и даёт обратную связь.
+                    Именно ревьюер решает: зачесть задание или нет. Также он
+                    даёт советы по улучшению кода, отмечает неточности,
+                    указывает на ошибки.
+                  </p>
+                </div>
+                <div class="accordion__card-description-textarea">
+                  <h3
+                    class="accordion__card-description-title text_regular-bold"
+                  >
+                    Я хочу стать ревьюером. Меня возьмут?
+                  </h3>
+                  <div class="accordion__card-description-requirements">
+                    <p class="accordion__card-description-text text_regular">
+                      Скорее всего — да, если вы:
+                    </p>
+                    <ul class="accordion__card-description-requirements-list">
+                      <template class="accordion__card-description-template">
+                        <li class="accordion__card-description-requirement">
+                          <p
+                            class="accordion__card-description-text accordion__card-description-text_type_list text_regular"
+                          >
+                            <span class="accordion__card-description-text-span">
+                              &bull;
+                            </span>
+                            <span
+                              class="accordion__card-description-inserted-text"
+                            ></span>
+                          </p>
+                        </li>
+                      </template>
+                    </ul>
+                  </div>
+                </div>
+                <a
+                  type="button"
+                  class="text_small main-button main-button_place_vacancies main-button_type_secondary";
+                  href="./vacancies.html"
+                  target="_blank"
+                  >
+                  Откликнуться
+                </a>
+              </article>
+            </li>
+          </template>
+          <button
+            type="button"
+            class="text_small main-button main-button_type_ghost main-button_place_show-more"
+          >
+            Смотреть еще
+          </button>
+        </section>
+        <!----------- блок video ----------->
+        <section id="reviews" class="videos content__videos">
+          <h2 class="videos__title title_h2">Истории ребят из нашей команды</h2>
+          <div class="videos__grid">
+            <div
+              class="videos__grid-item videos__item_position_1"
+              data-url="776189882?h=cc548d8c61"
+              tabindex="0"
+            >
+              <img
+                src="<%=require('./images/Alisa.jpg')%>"
+                class="videos__photo"
+                alt="Алиса"
+              />
+              <div class="videos__icon"></div>
+            </div>
+            <div
+              class="videos__grid-item videos__item_position_2"
+              data-url="776163954?h=1eedac0347"
+              tabindex="0"
+            >
+              <img
+                src="<%=require('./images/Tina.jpg')%>"
+                class="videos__photo"
+                alt="Тина"
+              />
+              <div class="videos__icon"></div>
+            </div>
+            <div
+              class="videos__grid-item videos__item_position_3"
+              data-url="776122242?h=855cdd6f5d"
+              tabindex="0"
+            >
+              <img
+                src="<%=require('./images/Sasha.jpg')%>"
+                class="videos__photo"
+                alt="Саша"
+              />
+              <div class="videos__icon"></div>
+            </div>
+            <div
+              class="videos__grid-item videos__item_position_4"
+              data-url="776102940?h=be2fe601c6"
+              tabindex="0"
+            >
+              <img
+                src="<%=require('./images/Vova.jpg')%>"
+                class="videos__photo"
+                alt="Вова"
+              />
+              <div class="videos__icon"></div>
+            </div>
+            <div
+              class="videos__grid-item videos__item_position_5"
+              data-url="775791631?h=76194b89b5"
+              tabindex="0"
+            >
+              <img
+                src="<%=require('./images/Rita.jpg')%>"
+                class="videos__photo"
+                alt="Рита"
+              />
+              <div class="videos__icon"></div>
+            </div>
+            <div
+              class="videos__grid-item videos__item_position_6"
+              data-url="776185296?h=e7b202cd48"
+              tabindex="0"
+            >
+              <img
+                src="<%=require('./images/Polina.jpg')%>"
+                class="videos__photo"
+                alt="Полина"
+              />
+              <div class="videos__icon"></div>
+            </div>
+          </div>
+        </section>
+        <!----------- блок FAQ ----------->
+        <section id="faq" class="faq content__faq">
+          <h2 class="faq__title title_h2">FAQ</h2>
+          <ul class="faq__questions accordion">
+            <li class="accordion__card">
+              <div
+                class="accordion__card-header accordion__card-header_place_faq"
+              >
+                <h3 class="accordion__card-header-title text_large">
+                  Как я пойму, что у меня достаточно опыта, чтобы делиться
+                  знаниями?
+                </h3>
+                <button class="accordion__card-header-button"></button>
+              </div>
+              <article class="accordion__card-description">
+                <div
+                  class="accordion__card-description-textarea accordion__card-description-textarea_place_faq"
+                >
+                  <p class="accordion__card-description-text text_regular">
+                    Мы в первую очередь ценим практический опыт с теми
+                    технологиями, которые изучают на наших курсах. Нам важно,
+                    чтобы наставники делились с группой настоящими рабочими
+                    кейсами, поэтому экспертами становятся специалисты уровня
+                    мидл и старше.
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li class="accordion__card">
+              <div
+                class="accordion__card-header accordion__card-header_place_faq"
+              >
+                <h3 class="accordion__card-header-title text_large">
+                  Какой график и формат работы?
+                </h3>
+                <button class="accordion__card-header-button"></button>
+              </div>
+              <article class="accordion__card-description">
+                <div
+                  class="accordion__card-description-textarea accordion__card-description-textarea_place_faq"
+                >
+                  <p class="accordion__card-description-text text_regular">
+                    Яндекс Практикум — это сервис онлайн-образования, доступный
+                    в России и Америке. Мы помогаем людям расти — на работе и в
+                    жизни.
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li class="accordion__card">
+              <div
+                class="accordion__card-header accordion__card-header_place_faq"
+              >
+                <h3 class="accordion__card-header-title text_large">
+                  Какой доход возможно получать?
+                </h3>
+                <button class="accordion__card-header-button"></button>
+              </div>
+              <article class="accordion__card-description">
+                <div
+                  class="accordion__card-description-textarea accordion__card-description-textarea_place_faq"
+                >
+                  <p class="accordion__card-description-text text_regular">
+                    Яндекс Практикум — это сервис онлайн-образования, доступный
+                    в России и Америке. Мы помогаем людям расти — на работе и в
+                    жизни.
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li class="accordion__card">
+              <div class="accordion__card-header accordion__card-header_place_faq">
+                <h3 class="accordion__card-header-title text_large">
+                  Есть ли какие-то плюшки или бонусы?
+                </h3>
+                <button class="accordion__card-header-button"></button>
+              </div>
+              <article class="accordion__card-description">
+                <div class="accordion__card-description-textarea accordion__card-description-textarea_place_faq">
+                  <p class="accordion__card-description-text text_regular">
+                    Яндекс Практикум — это сервис онлайн-образования, доступный
+                    в России и Америке. Мы помогаем людям расти — на работе и в
+                    жизни.
+                  </p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </section>
+        <!----------- блок контактов ----------->
+        <section class="contacts content__contacts">
+          <h2 class="contacts__title title_h2">
+            Если остались вопросы, мы&nbsp;на&nbsp;связи
+          </h2>
+          <div class="contacts__items">
+            <span class="contacts__span">
+              <img class="contacts__vector" src="<%=require('./images/Vector 145.svg')%>" alt="vector"/>
+            </span>
+            <div class="contacts__container">
+              <a href="https://t.me/yandex" target="_blank" class="contacts__link"
+                ><button
+                  class="contacts__btn contacts__btn_type_tg"
+                  type="button"
+                ></button
+              ></a>
+              <p class="contacts__text text_large">Telegram</p>
+            </div>
+            <div class="contacts__container">
+              <a href="https://vk.com/yandex" target="_blank" class="contacts__link"
+                ><button
+                  class="contacts__btn contacts__btn_type_vk"
+                  type="button"
+                ></button
+              ></a>
+              <p class="contacts__text text_large">ВКонтакте</p>
+            </div>
+            <div class="contacts__container">
+              <a href="#" class="contacts__link"
+                ><button
+                  class="contacts__btn contacts__btn_type_ld"
+                  type="button"
+                ></button
+              ></a>
+              <p class="contacts__text text_large">LinkedIn</p>
+            </div>
+            <span class="contacts__span">
+              <img class="contacts__vector" src="<%=require('./images/Vector 135.svg')%>" alt="vector"/>
+            </span>
+          </div>
+        </section>
+    </main>
+    <!----------- блок footer ----------->
+    <footer class="footer page__footer">
+      <div class="footer__grid">
+        <div class="footer__connection">
+          <div class="call">
+            <p class="call__num text_large">8-800-700-93-29</p>
+            <p class="call__text text_regular">Звонок&nbsp;по&nbsp;России&nbsp;бесплатный</p>
+          </div>
+          <div class="footer__journal">
+            <a
+              class="text_regular footer__journal-text"
+              href="https://thecode.media/"
+              target="_blank"
+              >Журнал</a
+            >
+            <a
+              href="https://vk.com/yandex"
+              target="_blank"
+              class="footer__journal-img"
+              ><img src="<%=require('./images/vk_f.svg')%>" alt="vk" /></a
+            ><a
+              href="https://t.me/yandex"
+              target="_blank"
+              class="footer__journal-img"
+              ><img src="<%=require('./images/telegram.svg')%>" alt="telegram"
+            /></a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="add">
+            <a class="add__text text_regular" href="#">Помощь</a>
+            <a class="add__text text_regular" href="#">Вакансии</a>
+            <a
+              class="add__text text_regular"
+              href="https://code.s3.yandex.net/License%20YSDA.pdf"
+              target="_blank"
+              >Лицензия</a>
+          </div>
+          <div class="about">
+            <a class="about__text text_regular" href="#">Правовая информация</a>
+            <a class="about__text text_regular" href="#">Для работодателей</a>
+            <a class="about__text text_regular" href="#">Отзывы</a>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p class="text_regular info__text">
+            &copy;&nbsp;2022&nbsp;АНО&nbsp;ДПО&nbsp;«ШАД», ООО&nbsp;«Яндекс»&nbsp;
+          </p>
+        </div>
+        <div class="info">
+          <div class="info__text-container">
+            <p class="text_regular info__text-agree">
+              Информация на данной странице описывает возможные варианты
+              получения дополнительного дохода в месяц (т.н. подработка). Не
+              является предложением о работе. Размещенные объявления о
+              потребности в тех или иных услугах не являются вакансиями.
+            </p>
+            <p class="text_regular info__text-agree info__text-none">
+              Образовательные услуги оказываются АНО ДПО «ШАД». ШАД —
+              <a
+                class="info__link"
+                href="https://academy.yandex.ru/dataschool/"
+                target="_blank"
+                >это Школа анализа данных</a
+              >, основанная Яндексом и оказывающая образовательные услуги на
+              основании
+              <a
+                class="info__link"
+                href="https://code.s3.yandex.net/License%20YSDA.pdf"
+                target="_blank"
+                >Лицензии № 036031</a
+              >
+              от 24 марта 2015 года.
+            </p>
+            <p class="text_regular info__text-agree info__text-none">
+              Сертификат о прохождении обучения по программе дополнительного
+              профессионального образования также выдается АНО ДПО «ШАД».
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!----------- блок video popup ----------->
+      <div class="popup popup_type_open-video">
+        <div class="popup__video-wrapper">
+          <div id="player"></div>
+          <button class="popup__close popup__close_type_video" type="button">
+            <img
+              src="<%=require('./images/CloseIcon.svg')%>"
+              alt="закрывающий крестик"
+              class="popup__close-image"
+            />
+          </button>
+        </div>
+      </div>
+      <!----------- блок popup form с обратной связью ----------->
+      <section class="popup popup_type_tell-us">
+        <form name="tell-us" class="popup__form popup__form_type_tel-us" novalidate>
+          <fieldset class="popup__fieldset">
+            <legend class="popup__title text_regular-bold">
+              Расскажите нам о себе и мы сохраним ваши данные
+            </legend>
+            <div class="popup__input-wrapper popup__input-wrapper_type_name">
+              <input type="text" name="name" placeholder="Имя" id="name-input" class="popup__input popup__input_type_name text_radio" required minlength="2" maxlength="30">
+              <span class="popup__error-message name-input-error"></span>
+            </div>
+            <div class="popup__input-wrapper">
+              <input type="email" name="email" placeholder="Email" id="email-input" class="popup__input popup__input_type_email text_radio" required>
+              <span class="popup__error-message email-input-error"></span>
+            </div>
+            <div class="popup__contacts-wrapper">
+              <input type="radio" name="contact" id="contact-telephone" value="telephone" class="popup__contact-radio popup__contact-radio_type_phone" checked/>
+              <label for="contact-telephone" class="popup__contacts-radio-label text_radio">
+                Телефон
+              </label>
+              <input type="radio" name="contact" id="contact-telegram" value="telegram" class="popup__contact-radio popup__contact-radio_type_telegram"/>
+              <label for="contact-telegram" class="popup__contacts-radio-label text_radio">
+                Телеграм
+              </label>
+            </div>
+            <div class="popup__input-wrapper popup__input-wrapper_type_phone">
+              <input type="tel" name="phone" placeholder="+7" id="phone-input" class="popup__input popup__input_type_phone text_radio" required>
+              <span class="popup__error-message phone-input-error"></span>
+            </div>
+            <div class="popup__input-wrapper popup__input-wrapper_type_telegram popup__input-wrapper_hidden">
+              <input type="text" name="telegram" placeholder="@" id="telefram-input" class="popup__input popup__input_type_telegram text_radio">
+              <span class="popup__error-message telegram-input-error"></span>
+            </div>
+            <h3 class="popup__fieldset-title text_radio">
+              Выберите роль
+            </h3>
+            <fieldset class="select__role-selection select__role-selection_place_popup">
+              <input type="radio" name="role-popup" id="role-mentor-popup" value="mentor" class="select__role-radio select__role-redio_place_popup" checked/>
+              <label for="role-mentor-popup" class="select__role-button select__role-button_place_popup text_radio-small">
+                Наставник
+              </label>
+              <input type="radio" name="role-popup" id="role-reviewer-popup" value="reviewer" class="select__role-radio select__role-redio_place_popup"/>
+              <label for="role-reviewer-popup" class="select__role-button select__role-button_place_popup text_radio-small">
+                Ревьюер
+              </label>
+            </fieldset>
+            <h3 class="popup__fieldset-title text_radio">
+              Выберите направление
+            </h3>
+            <fieldset class="select__course-selection select__course-selection_place_popup">
+              <input type="radio" name="course-popup" id="course-programming-popup" value="programming" class="select__course-radio select__course-radio_place_popup" checked/>
+              <label for="course-programming-popup" class="select__course-button select__course-button_place_popup text_radio-small">
+                Программирование
+              </label>
+              <input type="radio" name="course-popup" id="course-analytics-popup" value="analytics" class="select__course-radio select__course-radio_place_popup"/>
+              <label for="course-analytics-popup" class="select__course-button select__course-button_place_popup text_radio-small">
+                Аналитика
+              </label>
+              <input type="radio" name="course-popup" id="course-design-popup" value="design" class="select__course-radio select__course-radio_place_popup"/>
+              <label for="course-design-popup" class="select__course-button select__course-button_place_popup text_radio-small">
+                Дизайн
+              </label>
+              <input type="radio" name="course-popup" id="course-marketing-popup" value="marketing" class="select__course-radio select__course-radio_place_popup"/>
+              <label for="course-marketing-popup" class="select__course-button select__course-button_place_popup text_radio-small">
+                Маркетинг
+              </label>
+              <input type="radio" name="course-popup" id="course-management-popup" value="management" class="select__course-radio select__course-radio_place_popup"/>
+              <label for="course-management-popup" class="select__course-button select__course-button_place_popup text_radio-small">
+                Менеджмент
+              </label>
+            </fieldset>
+            <div class="popup__input-wrapper popup__input-wrapper_type_url">
+              <input type="url" name="url" placeholder="Ссылка на резюме" id="url-input" class="popup__input popup__input_type_url text_radio" required>
+              <span class="popup__error-message url-input-error"></span>
+            </div>
+            <div class="popup__contacts-wrapper popup__contacts-wrapper_place_permission">
+              <input type="checkbox" name="contact-checkbox" id="contact-checkbox" value="agree" class="popup__contact-checkbox"/>
+              <label for="contact-checkbox" class="popup__contacts-checkbox-label text_radio">
+                Даю согласие на обработку персональных данных
+              </label>
+            </div>
+          </fieldset>
+          <button type=submit class="main-button main-button_type_primary main-button_type_primary-disabled main-button_place_popup text_small">
+            Отправить
+          </button>
+          <button type=reset class="popup__close popup__close_place_form"></button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

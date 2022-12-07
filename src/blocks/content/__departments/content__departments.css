@@ -1,0 +1,15 @@
+.content__departments {
+  margin: var(--margin_XL) auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .content__departments {
+    margin: 145px auto 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content__departments {
+    margin: 75px auto 0;
+  }
+}

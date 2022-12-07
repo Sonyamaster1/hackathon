@@ -1,0 +1,89 @@
+:root {
+/* основные цвета */
+
+--color_background: #FFFFFF;
+--color_block: #D9D9D9;
+--color_stroke: ;
+--color_text: #000000;
+--color_accent: #C7C0C0;
+
+/* размеры отсупов */
+
+--margin_XL: 175px;
+--margin_L: 100px;
+--margin_M: 50px;
+--margin_S: 40px;
+
+/* размеры шрифотв */
+
+--font_size_h1: 85px;
+--font_size_h2: 60px;
+--font_size_h3: 40px;
+--font_size_large: 30px;
+--font_size_regular: 25px;
+--font_size_regular-bold: 25px;
+--font_size_small: 20px;
+--font_size_extra_small: 18px;
+--font_size_radio: 16px;
+--font_size_radio-small: 14px;
+
+
+/* размеры шрифтов для мобильных экранов */
+
+--font_size_h1_mob: 36px;
+--font_size_h2_mob: 28px;
+--font_size_h3_mob: 24px;
+--font_size_large_mob: 20px;
+--font_size_regular_mob: 18px;
+--font_size_small_mob: 16px;
+--font_size_extra_small_mob: 14px;
+
+/* шрифты */
+
+--font_font_h1: 'YS Display', sans-serif;
+--font_font_h2: 'YS Display', sans-serif;
+--font_font_h3: 'YS Display', sans-serif;
+--font_font_large: 'YS Display', sans-serif;
+--font_font_regular: 'YS Display', sans-serif;
+--font_font_regular-bold: 'YS Display', sans-serif;
+--font_font_small: 'YS Display', sans-serif;
+--font_font_extra_small: 'YS Display', sans-serif;
+--font_font_radio: 'YS Display', sans-serif;
+--font_font_radio-small: 'YS Display', sans-serif;
+
+/* размер line-height */
+
+--font_line_height_h1: 80px;
+--font_line_height_h2: 70px;
+--font_line_height_h3: 47px;
+--font_line_height_large: 35px;
+--font_line_height_regular: 35px;
+--font_line_height_regular-bold: 30px;
+--font_line_height_small: 23px;
+--font_line_height_extra_small: 21px;
+--font_line_height_radio: 20px;
+--font_line_height_radio-small: 18px;
+
+/* размер line-height для мобильных экранов   */
+
+--font_line_height_h1_mob: 42px;
+--font_line_height_h2_mob: 33px;
+--font_line_height_h3_mob: 28px;
+--font_line_height_large_mob: 23px;
+--font_line_height_regular_mob: 21px;
+--font_line_height_small_mob: 20px;
+--font_line_height_extra_small_mob: 18px;
+
+/* font weight */
+
+--font_font_weight_h1: 700;
+--font_font_weight_h2: 700;
+--font_font_weight_h3: 500;
+--font_font_weight_large: 500;
+--font_font_weight_regular: 400;
+--font_font_weight_regular-bold: 700;
+--font_font_weight_small: 500;
+--font_font_weight_extra_small: 500;
+--font_font_weight_radio: 500;
+--font_font_weight_radio-small: 500;
+}

@@ -1,0 +1,20 @@
+.job__description {
+  max-width: 793px;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .job__description {
+    margin: 35px 0;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .job__description {
+    gap: 20px;
+  }
+}

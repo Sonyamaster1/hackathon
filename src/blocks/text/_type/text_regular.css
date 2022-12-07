@@ -1,0 +1,20 @@
+.text_regular {
+  font-family: var(--font_font_regular); /* 25px */
+  font-weight: var(--font_font_weight_regular);
+  font-size: var(--font_size_regular);
+  line-height: var(--font_line_height_regular);
+}
+
+@media screen and (max-width: 1024px) {
+  .text_regular{
+    font-size: var(--font_size_small); /* 20px */
+    line-height: var(--font_line_height_small);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .text_regular{
+    font-size: var(--font_size_regular_mob); /* 18px */
+    line-height: var(--font_line_height_regular_mob);
+  }
+}

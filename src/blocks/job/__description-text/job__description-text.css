@@ -1,0 +1,9 @@
+.job__description-text {
+  margin: 0;
+}
+
+@media screen and (max-width: 470px) {
+  .job__description-text {
+    line-height: 1.4;
+  }
+}

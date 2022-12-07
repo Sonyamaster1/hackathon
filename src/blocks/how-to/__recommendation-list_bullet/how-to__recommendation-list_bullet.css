@@ -1,0 +1,14 @@
+.how-to__recommendation-list_bullet {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 470px) {
+  .how-to__recommendation-list_bullet {
+    width: 25px;
+    height: 25px;
+  }
+}

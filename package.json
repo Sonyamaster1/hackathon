@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "name": "my-webpack-project",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^9.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.2",
+    "cssnano": "^5.1.14",
+    "gh-pages": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.0",
+    "postcss": "^8.4.19",
+    "postcss-loader": "^7.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "core-js": "^3.24.1",
+		"gsap": "^3.11.0",
+		"scroll-lock": "^2.1.5",
+    "swiper": "^8.4.5"
+  }
+}

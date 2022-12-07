@@ -1,0 +1,29 @@
+.grid__item-title_type_fact {
+  padding: 0 20px;
+  margin: 0;
+  color: var(--color_text);
+}
+
+.grid__item-title_hidden {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid__item-title_type_fact {
+    padding: 35px 12px 0;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .grid__item-title_hidden  {
+    font-size: var(--font_size_h3_mob);
+    line-height: var(--font_line_height_h3_mob);
+    display: inline;
+  }
+
+  .grid__item-title_type_fact {
+    padding: 27px 10px 0;
+    font-size: var(--font_size_h3_mob);
+    line-height: var(--font_line_height_h3_mob);
+  }
+}

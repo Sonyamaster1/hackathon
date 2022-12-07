@@ -1,0 +1,14 @@
+.how-to__recommendation-list-item {
+  margin: 0;
+  padding: 0;
+  max-width: 387px;
+  display: flex;
+  gap: 15px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 920px) {
+  .how-to__recommendation-list-item {
+    max-width: 100%;
+  }
+}

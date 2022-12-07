@@ -1,0 +1,9 @@
+.videos__item_position_4 {
+  grid-area: 2 / 1 / 5 / 2;
+}
+
+@media screen and (max-width: 756px) {
+  .videos__item_position_4 {
+    grid-area: 2 / 1 / 4 / 2;
+  }
+}

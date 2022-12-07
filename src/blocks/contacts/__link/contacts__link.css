@@ -1,0 +1,9 @@
+.contacts__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.contacts__link:visited {
+  color: #000;
+}

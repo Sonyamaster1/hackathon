@@ -1,0 +1,8 @@
+.select__role-selection {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  display: flex;
+  gap: 8px;
+  border: 0;
+}

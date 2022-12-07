@@ -1,0 +1,19 @@
+.main-button_type_ghost {
+  width: 285px;
+  height: 50px;
+  border: 2px solid #EAEAEA;
+  background-color: var(--color_background);
+  color: black;
+}
+
+.main-button_type_ghost:hover {
+  border: 2px solid #EAEAEA;
+  background-color: #EAEAEA;
+  color: black;
+}
+
+.main-button_type_ghost:active {
+  border: 2px solid #EAEAEA;
+  background-color: #EAEAEA;
+  color: black;
+}

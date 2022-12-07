@@ -1,0 +1,17 @@
+.main-button_place_empty-vacancies {
+  align-self: center;
+  background-color: #FFFFFF;
+  color: #262626;
+}
+
+.main-button_place_empty-vacancies:hover {
+  align-self: center;
+  background-color: #EAEAEA;
+  color: #262626;
+}
+
+.main-button_place_empty-vacancies:active {
+  align-self: center;
+  background-color: #EAEAEA;
+  color: #262626;
+}

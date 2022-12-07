@@ -1,0 +1,15 @@
+.popup__close_place_form {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background-color: transparent;
+  background-image: url(../../../../images/Close.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+}

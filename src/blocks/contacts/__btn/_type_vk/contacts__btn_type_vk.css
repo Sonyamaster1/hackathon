@@ -1,0 +1,17 @@
+.contacts__btn_type_vk {
+  background-image: url(../../../../images/VK.svg);
+  background-repeat: no-repeat;
+  border: none;
+}
+.contacts__link:hover > .contacts__btn_type_vk {
+  background-image: url(../../../../images/VK_h.svg);
+}
+.contacts__link:active > .contacts__btn_type_vk {
+  background-image: url(../../../../images/VK_p.svg);
+}
+
+@media screen and (max-width: 756px) {
+  .contacts__btn_type_vk {
+    background-size: 55px 56px;
+  }
+}

@@ -1,0 +1,11 @@
+.link_type_return {
+  background: url(./../../../images/arrow-left.svg) no-repeat left center;
+  text-decoration: none;
+  color: var(--color-text);
+  padding-left: 34px;
+}
+
+.link_type_return:hover {
+  color: #3F75E0;
+  background-image: url(./../../../images/arrow-left-blue.svg);
+}

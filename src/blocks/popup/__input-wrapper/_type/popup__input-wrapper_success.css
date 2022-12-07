@@ -1,0 +1,16 @@
+.popup__input-wrapper_success::after {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #1C9C75;
+  background-image: url(../../../../images/radio-check.svg);
+  background-size: 9px 6.75px;
+}
+
+.popup__input-wrapper_success > .popup__input {
+  border: 2px solid #1C9C75;
+}
+
+.popup__input-wrapper_success > .popup__input:focus {
+  border: 2px solid #1C9C75;
+}

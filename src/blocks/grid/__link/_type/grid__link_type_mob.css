@@ -1,0 +1,11 @@
+.grid__link_type_mob {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.swiper-slide-active .grid__link_type_mob {
+  display: block;
+}

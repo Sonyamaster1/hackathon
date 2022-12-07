@@ -1,0 +1,6 @@
+.text_regular-bold {
+  font-family: var(--font_font_regular-bold);
+  font-weight: var(--font_font_weight_regular-bold);
+  font-size: var(--font_size_regular-bold);
+  line-height: var(--font_line_height_regular-bold);
+}

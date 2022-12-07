@@ -1,0 +1,21 @@
+.select__role-button {
+  margin: 0;
+  padding: 0 24px;
+  display: block;
+  width: fit-content;
+  height: 50px;
+  border: 0;
+  border-radius: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: #000;
+}
+
+.select__role-button:hover {
+  background-color: #F0F0F0;
+}
+
+.select__role-radio:checked + .select__role-button {
+  background-color: #262626;
+  color: #FFF;
+}

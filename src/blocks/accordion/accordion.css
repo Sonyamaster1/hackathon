@@ -1,0 +1,13 @@
+.accordion {
+  padding: 0;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.accordion > .accordion__card:first-child {
+  border-top: 2px solid #EAEAEA;
+}

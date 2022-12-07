@@ -1,0 +1,12 @@
+.how-to__recommendation {
+  margin: 0;
+  padding: 0;
+  max-width: 332px;
+  letter-spacing: -0.8px;
+}
+
+@media screen and (max-width: 920px) {
+  .how-to__recommendation {
+    max-width: 100%;
+  }
+}

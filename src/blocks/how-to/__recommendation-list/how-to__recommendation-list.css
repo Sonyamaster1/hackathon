@@ -1,0 +1,29 @@
+.how-to__recommendation-list {
+  margin: 40px 0 0;
+  max-width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .how-to__recommendation-list {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .how-to__recommendation-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .how-to__recommendation-list {
+    margin: 27px 0 0;
+  }
+}

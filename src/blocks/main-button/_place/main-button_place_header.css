@@ -1,0 +1,5 @@
+@media screen and (max-width: 1200px) {
+  .main-button_place_header {
+    display: none;
+  }
+}
